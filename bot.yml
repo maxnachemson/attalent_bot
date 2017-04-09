@@ -1,6 +1,6 @@
-name: Botkit Starter Bot
-description: ☝️☝️ Check out the README ☝️☝️ in the repo for setup instructions. By the way, this is just the description in the bot.yml file - feel free to change it 😉
-avatar: .beepboop/avatar.png
+name: AT Talent
+description: Finding jobs
+avatar: .beepboop/justin.jpg
 config:
   - name: BOTKIT_STUDIO_TOKEN
     friendly_name: Botkit Studio Token
