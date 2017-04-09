@@ -1,12 +1,6 @@
 var Botkit = require('botkit');
 var controller = Botkit.slackbot();
 
-const BeepBoop = require('beepboop-botkit');
-
-const beepboop = BeepBoop.start(controller, {
-    debug: true //you might want to enable debug for testing :)
-});
-
 var request = require('request');
 
 var options = {
