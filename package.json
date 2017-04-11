@@ -1,12 +1,11 @@
 {
   "name": "at_talent",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Finding jobs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "watch": "nodemon index.js -w .",
-    "test": "standard"
+    "test": "node index.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -24,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BeepBoopHQ/starter-botkit-bot.git"
+    "url": "https://github.com/maxnachemson/attalent_bot"
   },
   "bugs": {
     "url": "https://github.com/BeepBoopHQ/starter-botkit-bot/issues"
   },
-  "homepage": "https://github.com/BeepBoopHQ/starter-botkit-bot",
+  "homepage": "https://github.com/maxnachemson/attalent_bot",
   "keywords": [
     "bots",
     "chatbots",
