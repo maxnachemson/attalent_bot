@@ -2,10 +2,10 @@
   "name": "AT Talent",
   "version": "0.0.1",
   "description": "Finding jobs",
-  "main": "inedx.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js",
-    "watch": "nodemon bot.js -w .",
+    "start": "node index.js",
+    "watch": "nodemon index.js -w .",
     "test": "standard"
   },
   "dependencies": {
