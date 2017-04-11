@@ -149,13 +149,10 @@ controller.hears([/^.{0,}job.{0,}$/], ["direct_message","direct_mention","mentio
 })
 
 
-var bot = controller.spawn ({
-     token: process.env.SLACK_TOKEN
-});
-
-bot.startRTM(function(err, bot, payload) {
-    if (err) {
-        console.log(err);
-        throw new Error('Could not connect to Slack');
-    }
+controller.spawn({
+	  token: process.env.SLACK_TOKEN
+}).startRTM((err, bot, payload) => {
+	if (err) {
+	    throw new Error('Could not connect to Slack');
+	}
 });
