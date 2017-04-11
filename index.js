@@ -146,8 +146,9 @@ controller.hears([/^.{0,}job.{0,}$/], ["direct_message","direct_mention","mentio
   })
 })
 
+
 var bot = controller.spawn ({
-    token:require('./config').token
+     token: process.env.SLACK_TOKEN
 });
 
 bot.startRTM(function(err, bot, payload) {
